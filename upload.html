@@ -1,0 +1,59 @@
+<!doctype html>
+<html class="no-js h-100" lang="en">
+  <head>
+    {% include "head.html" %}
+  </head>
+  <body class="h-100">
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Main Sidebar -->
+        {% include "sidebar.html" %}
+        <!-- End Main Sidebar -->
+        <main class="main-content col-lg-10 col-md-9 col-sm-12 p-0 offset-lg-2 offset-md-3">
+          <!-- / .main-navbar -->
+          <div class="main-content-container container-fluid px-4">
+            <!-- Page Header -->
+            <div class="page-header row no-gutters py-4">
+              <div class="col-11 text-center text-sm-left mb-0">
+                <h3 class="page-title">Implementasi Text Mining Pengelompokan Judul Penelitian Dosen Menggunakan Metode K-Medoid dengan Cosine Similarity</h3>
+              </div>
+            </div>
+            <!-- End Page Header -->
+            <!-- End Small Stats Blocks -->
+            <div class="row">
+              <!-- New Draft Component -->
+              <div class="col-lg-12 col-md-6 col-sm-12 mb-4">
+                <!-- Quick Post -->
+                <div class="card card-small h-100">
+                  <div class="card-header border-bottom">
+                    <h6 class="m-0">Upload Dataset</h6>
+                  </div>
+                  <div class="card-body d-flex flex-column">
+                    <div class="col-sm-12 col-md-6">
+                      <form action="" method="POST" enctype="multipart/form-data">
+                        <div class="form-group">
+                          <div class="input-group mb-3">
+                              <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="material-icons">cloud_upload</i></span>
+                              </div>
+                              <input type="file" name="file" class="form-control" aria-describedby="basic-addon2">
+                              <div class="input-group-append">
+                                <button class="btn btn-info" type="submit">Upload</button>
+                              </div>
+                            </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Quick Post -->
+              </div>
+            </div>
+          </div>
+          {% include "footer.html" %}
+        </main>
+      </div>
+    </div>
+    {% include "scripts.html" %}
+  </body>
+</html>
